@@ -1,0 +1,81 @@
+/* Temel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    background-image: url('abc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main-header {
+    background-color: rgba(155, 89, 182, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#info-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* İki Resimlik Alan Stilleri */
+#image-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#image-section img {
+    width: 45%;  /* İki resmin yan yana durabilmesi için genişlik */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#commands {
+    padding: 20px;
+}
+
+.command {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.command h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.command p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.command img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
