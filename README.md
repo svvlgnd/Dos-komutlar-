@@ -1,4 +1,4 @@
-# Windows CMD Komutları
+# Windows Dos Komutları
 
 Bu projede, temel Windows CMD (Command Prompt) komutları örneklerini ve açıklamalarını bulabilirsiniz. Komutlar, yeni başlayanlar için öğrenmesi kolay ve işlevsel olacak şekilde seçilmiştir.
 
